@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: linear-gradient(#374151, #1A1B21);
+}
+
+/* Typography */
+
+p {
+    color: #DCDCDC;
+    font-size: .64rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+.name {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.job-title {
+    color: #F3BF99;
+    font-size: .887rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: .2em;
+}
+
+.section-title {
+    color: #F5F5F5;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Layout */
+
+.body-container {
+    background: #1A1B21;
+    max-width: 480px;
+    min-width: 275px;
+    margin: 0 auto;
+}
+
+.header {
+    color: #FFF;
+    text-align: center;
+}
+
+.avatar {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    padding: 0 2.1875em;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 360px;
+    margin: 0 auto;
+    
+}
+
+.about,
+.interests {
+    max-width: calc(360px + 2*2.1875em);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    margin-top: 1.2em;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 19%;
+    /* padding: 1em 4.3em; */
+    background: #161619;
+    margin-top: 2.5em;
+}
+
+.icon-container {
+    padding: .25em;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    transition: all .25s ease-in-out;
+    transform: scale(1.25);
+    opacity: .6;
+    border-radius: 50%;
+}
+
+.personal-site-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: .64rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.personal-site-link:hover {
+    transition: all .25s ease-in-out;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/* Buttons */
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    width: 46%;
+    padding: .64em .93em .64em .78em;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    gap: .57em;
+    border-radius: .43em;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 114.286%;
+}
+
+.btn-email {
+    color: #374151;
+    border: 1px solid #D1D5DB;
+    background: #FFF;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn-linkedin {
+    color: #FFF;
+    background: #5093E2;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+}
+
+.btn:hover {
+    transition: all .25s ease-in-out;
+    opacity: .8;
+}
+
+
+
+
+
